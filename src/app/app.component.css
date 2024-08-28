@@ -375,7 +375,7 @@
   }
 
   .pricing-box h6 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     color: #3a3f52;
     margin-bottom: 0px;
@@ -623,7 +623,7 @@
 
     .nav-logo-mobile {
       margin: auto;
-      padding-right: 50px;
+      padding-right: 40px;
     }
 
     .nav-logo-desktop {
