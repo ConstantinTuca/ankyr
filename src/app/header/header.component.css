@@ -1,0 +1,138 @@
+/* Navbar */
+.custom-navbar {
+  background-color: #ffffff!important;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+  height: 70px;
+  max-height: 70px;
+}
+
+.navbar-toggler {
+  font-size: 38px;
+  background-color: transparent;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.navbar-collapse {
+  background-color: #ffffff;
+}
+
+.nav-custom-link {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .05em;
+  margin-top: 5px;
+}
+
+.navbar a {
+  color: #53627C !important;
+}
+
+.nav-right {
+  float: right;
+}
+
+/* Buttons */
+
+.btn-demo {
+  color: #ffffff;
+  background-color: #6772e5;
+  letter-spacing: .1em;
+  padding: 15px 48px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-demo:hover {
+  color: #ffffff;
+  background-color: #636ee1;
+}
+
+.btn-demo-small {
+  font-size: 12px;
+  background-color: #6772e5;
+  padding: 1px 4px;
+}
+
+.btn-demo-small:hover {
+  background-color: #636ee1;
+}
+
+.btn-demo-small a {
+  color: #ffffff!important;
+}
+
+ /* Media Queries */
+
+@media (max-width: 991px) {
+  .nav-right {
+    float: left;
+  }
+  .nav-custom-link {
+    border-bottom: 1px solid #EEE;
+  }
+  .navbar-nav{
+    width: 100%;
+  }
+  .navbar-nav .nav-link {
+    padding: 20px 0;
+    text-align: left;
+  }
+
+  .btn-demo-small {
+    background-color: #ffffff;
+    border: 0px;
+    padding: 0px;
+    box-shadow: none;
+
+  }
+  .btn-demo-small:hover {
+    background-color: #ffffff;
+    border: 0px;
+    padding: 0px;
+    box-shadow: none;
+
+  }
+  .btn-demo-small a {
+    color: #53627C!important;
+  }
+  .nav-custom-link {
+    font-size: 13px;
+  }
+
+  .icon-mobile {
+    font-size: 18px;
+    float: right;
+  }
+
+  .navbar-collapse {
+    border-bottom: 1px solid #efefef;
+  }
+
+  .nav-logo-mobile {
+    margin: auto;
+    padding-right: 40px;
+  }
+
+  .nav-logo-desktop {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .icon-mobile {
+    display: none;
+  }
+  .nav-logo-mobile {
+    display: none;
+  }
+}

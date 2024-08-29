@@ -1,0 +1,58 @@
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <!-- Address info -->
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6 address-block">
+            <div class="address-block-title">
+              <h3><span><fa-icon class="color-primary" [icon]='faPaperPlane'></fa-icon></span> ADDRESS</h3>
+            </div>
+            <div>Str. Alexandru cel bun, nr. 14,</div>
+            <div>Suceava,</div>
+            <div>România.</div>
+          </div>
+          <div class="col-md-6 address-block">
+            <div class="address-block-title">
+              <h3><span><fa-icon class="color-primary" [icon]='faAddressCard'></fa-icon></span> INFO CONTACT</h3>
+            </div>
+            <div>Mobil: +40745049587</div>
+            <div>Email: <a target="_blank" href="mailto:costi.tuca&#64;gmail.com"> costi.tuca&#64;gmail.com</a></div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col-xs-12">
+          <div class="contact-text">
+            <p>Contact us if you have any questions!</p>
+          </div>
+          <img src="assets/images/contact.jpg" class="img-fluid" alt="Contact image">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row contact-form">
+          <div class="contact-form-text">
+            <h4> CONTACT FORM</h4>
+          </div>
+          <h5 class="col-md-12">Name*</h5>
+          <input class="form-control col-md-12" [ngClass]="errors.name ? 'error' : ''" [(ngModel)]="modal.name" (ngModelChange)="errors.name = !modal.name">
+
+          <h5 class="col-md-12">Email*</h5>
+          <input class="form-control col-md-12" [ngClass]="errors.email ? 'error' : ''" [(ngModel)]="modal.email" (ngModelChange)="errors.email = !modal.email">
+
+          <h5 class="col-md-12">Subject*</h5>
+          <input class="form-control col-md-12" [ngClass]="errors.subject ? 'error' : ''" [(ngModel)]="modal.subject" (ngModelChange)="errors.subject = !modal.subject">
+
+          <h5 class="col-md-12">Message*</h5>
+          <textarea class="form-control col-md-12" [ngClass]="errors.message ? 'error' : ''" [(ngModel)]="modal.message" (ngModelChange)="errors.message = !modal.message" rows="6"></textarea>
+
+          <div class="agreement-text">
+            By using this form you agree to the storage and management of your data by this website.
+          </div>
+          <button class="btn btn-blue" (click)="sendEmail()">
+            Send <fa-icon [icon]="faPaperPlane"></fa-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
