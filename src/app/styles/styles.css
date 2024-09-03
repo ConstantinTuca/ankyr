@@ -22,7 +22,6 @@ h5 {
 }
 
 p {
-  font-size: 14px;
   font-weight: 400;
   letter-spacing: .05em;
   color: #53627C;
@@ -163,7 +162,7 @@ input {
     margin-bottom: 20px;
     line-height: 1.6;
   }
-  .title-block h2, p {
+  .title-block h2 {
     text-align: left;
     padding: 0px 20px;
   }

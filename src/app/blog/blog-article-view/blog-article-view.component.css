@@ -1,13 +1,13 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  /* width: 40%; */
   padding: 40px 30px;
   border-radius: 5px;
   margin-bottom: 20px;
 
   .card-title {
     h4 {
+      text-align: center;
       font-weight: 500;
       font-size: 35px;
     }
@@ -16,6 +16,7 @@
 
   .card-preview {
     padding-top: 20px;
+    letter-spacing: 1.5;
     font-size: 20px;
   }
 
@@ -36,13 +37,14 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
+.container {
+  margin-top: 90px;
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .card {
+  .container {
+    margin-top: 60px;
     padding: 40px 60px;
-
-    .card-preview {
-      font-size: 17px;
-    }
   }
 }

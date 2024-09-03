@@ -1,6 +1,17 @@
+#blog {
+  .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #blog {
     margin-top: 50px;
+
+    .title {
+      margin-bottom: 30px;
+    }
   }
 }
