@@ -8,9 +8,9 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { ToastrModule } from 'ngx-toastr';
 
 import { AppComponent } from './app.component';
-import ContactComponent from './contact/contact.component';
-import HeaderComponent from './header/header.component';
-import FooterComponent from './footer/footer.component';
+import ContactComponent from './client/contact/contact.component';
+import HeaderComponent from './client/header/header.component';
+import FooterComponent from './client/footer/footer.component';
 
 @NgModule({
   declarations: [
