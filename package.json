@@ -1,0 +1,81 @@
+{
+	"name": "Ankyr",
+	"version": "1.0.0",
+	"description": "Ankyr",
+	"main": "./server/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "cd client/ && npm install && ng build --aot --configuration production",
+		"start": "node server/app.js",
+		"dev": "nodemon server/app.js",
+		"preinstall": "npm i -g @angular/cli"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ConstantinTuca/ankyr.git"
+	},
+	"keywords": [
+		"ankyr"
+	],
+	"author": "Your Consulting S.R.L.",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ConstantinTuca/ankyr/issues"
+	},
+	"engines": {
+		"node": "18.12.0",
+		"npm": "8.19.2"
+	},
+	"homepage": "https://github.com/ConstantinTuca/ankyr#readme",
+	"dependencies": {
+		"@angular/material-moment-adapter": "~14.2.6",
+		"@babel/core": "^7.19.6",
+		"@socket.io/redis-adapter": "~8.2.1",
+		"@socket.io/redis-emitter": "~5.1.0",
+		"@types/node": "^18.11.8",
+		"apexcharts": "^3.37.0",
+		"babel": "^6.23.0",
+		"compression": "^1.7.4",
+		"cookie-parser": "^1.4.6",
+		"crypto-js": "^4.1.1",
+		"dayjs": "^1.11.6",
+		"express": "^4.18.2",
+		"express-timeout-handler": "^2.2.2",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-less": "^5.0.0",
+		"gulp-livereload": "^4.0.2",
+		"gulp-plumber": "^1.2.1",
+		"gulp-uglify": "^3.0.2",
+		"handlebars": "^4.7.7",
+		"helmet": "^6.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"jsonwebtoken-refresh": "^5.7.0",
+		"konfig": "^0.2.1",
+		"lodash": "^4.17.21",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.4",
+		"ngx-editor": "^15.3.0",
+		"node": "^18.12.0",
+		"node-promise": "^0.5.14",
+		"nodemailer": "^6.9.1",
+		"nodemon": "2.0.20",
+		"pg": "^8.8.0",
+		"phantom": "^6.3.0",
+		"redis": "~4.6.7",
+		"sequelize": "^6.25.3",
+		"socket.io": "^4.7.1",
+		"swag": "^0.7.0",
+		"xlsx": "^0.18.5"
+	},
+	"devDependencies": {
+		"@types/async": "^3.2.15",
+		"@types/xlsx": "^0.0.36",
+		"gulp-jshint": "^2.1.0",
+		"jshint": "^2.13.5",
+		"with-env": "^1.0.0"
+	}
+}
