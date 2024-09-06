@@ -48,7 +48,8 @@
 /* Testimonials */
 
 #testimonials {
-  background-color: #f6f8f9;
+  /* background-color: #f6f8f9; */
+  background-color: #ffffff;
   border-top: 1px solid #F8F9FB;
   border-bottom: 1px solid #F8F9FB;
 }
@@ -117,6 +118,10 @@
 }
 
 /* Pricing */
+
+#pricing {
+  background-color: #f6f8f9;
+}
 
 .pricing-box {
   background-color: #ffffff;
