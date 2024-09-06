@@ -70,6 +70,10 @@
   color: #ffffff!important;
 }
 
+.nav-logo-desktop {
+  padding-top: 5px;
+}
+
  /* Media Queries */
 
 @media (max-width: 991px) {
