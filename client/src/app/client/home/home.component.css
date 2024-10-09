@@ -100,12 +100,17 @@
 
 .profile-picture {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.profile-text {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .review-one {
@@ -115,72 +120,6 @@
 .personal-info {
   padding: 5px 0 20px 0;
   border-bottom: 1px solid #edf1f2;
-}
-
-/* Pricing */
-
-#pricing {
-  background-color: #f6f8f9;
-}
-
-.pricing-box {
-  background-color: #ffffff;
-  padding: 40px 20px;
-  border: 1px solid #F8F9FB;
-  border-radius: 6px;
-  box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
-  margin-top: 30px;
-}
-
-.pricing-box h3 {
-  font-size: 22px;
-  font-weight: 300;
-  letter-spacing: .1em;
-  color: #0095f7;
-}
-
-.pricing-box h6 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #3a3f52;
-  margin-bottom: 0px;
-}
-
-.pricing-box p {
-  font-size: 17px;
-  margin-top: 15px;
-  padding: 0px;
-}
-
-.pricing-box ul {
-  padding-left: 10px;
-}
-
-.pricing-box li {
-  font-size: 14px;
-  font-weight: 300;
-  color: #8da2b5;
-  letter-spacing: .1em;
-}
-
-.pricing-box span {
-  font-weight: 500;
-  color: #0095f7;
-}
-
-.pricing-box small {
-  color: #8da2b5;
-  letter-spacing: .2em;
-}
-
-.pricing-box i {
-  font-size: 20px;
-  color: #0095f7;
-  margin-right: 10px;
-}
-
-.pricing-box .demo {
-  color: #6772e5!important;
 }
 
 /* Call to Action */
@@ -252,15 +191,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .pricing-box h3 {
-    font-size: 17px;
-  }
-  .pricing-box p {
-    font-size: 14px;
-  }
-  .pricing-box li {
-    font-size: 12px;
-  }
   .btn-buy {
     font-size: 12px;
     padding: 15px 20px;
