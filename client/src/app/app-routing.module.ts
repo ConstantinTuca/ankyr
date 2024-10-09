@@ -6,6 +6,7 @@ import BlogArticleViewComponent from './client/blog/blog-article-view/blog-artic
 import ContactComponent from './client/contact/contact.component';
 import ServicesComponent from './client/services/services.component';
 import PlansComponent from './client/plans/plans.component';
+import AboutComponent from './client/about/about.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'plans', component: PlansComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'article-view', component: BlogArticleViewComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '' }
 ];
