@@ -32,6 +32,10 @@ input {
   }
 }
 
+textarea.form-control {
+  border: 1px solid #f1f1f1;
+}
+
 table input.form-control {
   font-size: 12px;
 }
