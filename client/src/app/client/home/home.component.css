@@ -24,6 +24,19 @@
   letter-spacing: .05em;
 }
 
+#hero {
+  background-image: url('../../../assets/images/main-picture.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-content {
+  background-color: white;
+  border-radius: 25px;
+}
+
 /* Marketing */
 
 #marketing p {
@@ -42,7 +55,8 @@
 }
 
 .content-box {
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
+  padding: 60px 40px 60px 60px;
 }
 
 /* Testimonials */
@@ -179,6 +193,11 @@
   }
   #hero p {
     font-size: 20px!important;
+  }
+
+  .content-box {
+    /* padding: 60px 20px; */
+    padding: 30px 30px 30px 30px;
   }
 }
 
